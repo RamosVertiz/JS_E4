@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="cabecera">
+    <img
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/International_Pok%C3%A9mon_logo.svg/1200px-International_Pok%C3%A9mon_logo.svg.png"
+    alt="" class="logoPokemon"/>
+
+    <form id="formulario" novalidate>
+        
+        <div class="form__field">
+          
+          <label for="Numero"></label>
+          <input type="number" id="ID" placeholder="Ingrese el Id del Pokemon"/>
+          <small></small>
+        </div>
+        <button type="submit" id="search-id">
+          Buscar
+        </button>
+        
+      </form>
+ 
+      <div class="CardContainer" id="caja"></div>
+    </section>
+
+
+
+ 
+    <script src="script.js"></script>
+</body>
+</html>
